@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# main.py - ARLEN -OTP OTP Spammer
+# main.py - JAVAS -OTP OTP Spammer
 
 import sys
 import time
@@ -19,7 +19,7 @@ from main_engine import run_single_round, run_infinite_loop
 init(autoreset=True)
 
 VERSION = "1.0.0"
-TOOLS_NAME = "ARLEN -OTP"
+TOOLS_NAME = "JAVAS -OTP"
 
 exec_data = {
     'target': '',
@@ -161,7 +161,7 @@ def matrix_loading(duration=3):
         matrix.update()
         
         colored_ascii = []
-        for line in ascii_arlen:
+        for line in ascii_javas:
             colored_line = ""
             for i, char in enumerate(line):
                 if char != ' ':
