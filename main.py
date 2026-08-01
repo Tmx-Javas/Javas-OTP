@@ -215,7 +215,7 @@ def print_banner(tick=0):
   └──────────────────────────────────────────────────────┘
 
   ┌──────────────────────────────────────────────────────┐
-  │  {color}API{reset}  : 24  │  {color}Version{reset}  : 1.0.0  │  {color}Dev{reset}  : Javas | Telegram: @Dx_Vasx      │
+  │  {color}API{reset}  : 24  │  {color}Version{reset}  : 1.0.0  │  {color}Dev{reset}  : Javas     │
   └──────────────────────────────────────────────────────┘{reset}
 """
     print(banner)
